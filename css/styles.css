@@ -9,6 +9,7 @@
   --main-section-bcg: #f5f4fa;
   --footer-bcg: #2f303a;
   --card-set-gap: 30px;
+  --icon-primary-color: #afb1b8;
 }
 p,
 h1,
@@ -289,16 +290,24 @@ body {
 .team-social-link {
   width: 44px;
   height: 44px;
-  background-color: teal;
+  background-color: var(--main-section-bcg);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: var(--icon-primary-color);
 }
 
 .team-social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* ---------------------footer----------------------------- */
