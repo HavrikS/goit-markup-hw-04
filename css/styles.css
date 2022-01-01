@@ -189,6 +189,20 @@ body {
   margin-left: calc(-1 * var(--card-set-gap));
 }
 
+.features-list-bloc {
+  background-color: #f5f4fa;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.features-list-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-list-title {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
