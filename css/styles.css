@@ -309,6 +309,7 @@ body {
 }
 
 .team-item-text {
+  background-color: var(--primary-white-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -325,7 +326,7 @@ body {
 .team-social-link {
   width: 44px;
   height: 44px;
-  background-color: var(--main-section-bcg);
+  background-color: var(--primary-white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,6 +387,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.address .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .address-informations {
   line-height: 1.71;
   font-style: normal;
@@ -404,6 +411,49 @@ body {
 .address-contacts {
   display: block;
   margin-top: 9px;
+}
+
+.left-footer {
+  margin-left: 70px;
+  padding-top: 12px;
+  flex-grow: 1;
+}
+
+.footer-title {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.company-social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.company-social-item + .company-social-item {
+  margin-left: 10px;
+}
+
+.company-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--primary-white-color);
+}
+
+.company-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.company-social-link:hover,
+.company-social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* -------------------Portfolio-------------------------- */
