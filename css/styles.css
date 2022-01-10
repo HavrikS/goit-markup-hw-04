@@ -390,6 +390,10 @@ body {
 
 /* ---------------------footer----------------------------- */
 
+.footer-studio {
+  color: var(--primary-white-color);
+}
+
 .address {
   background-color: var(--footer-bcg);
   padding-top: 60px;
@@ -399,6 +403,7 @@ body {
 .address .container {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 .address-informations {
@@ -421,9 +426,8 @@ body {
   margin-top: 9px;
 }
 
-.left-footer {
+.right-footer {
   margin-left: 70px;
-  padding-top: 12px;
   flex-grow: 1;
 }
 
@@ -467,7 +471,7 @@ body {
 /* -------------------Portfolio-------------------------- */
 
 .button-container {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -536,6 +540,7 @@ body {
   line-height: 1.87;
 }
 .card {
+  display: block;
   text-decoration: none;
 }
 
@@ -552,7 +557,7 @@ body {
   margin-bottom: var(--card-set-gap);
 }
 
-.card-item:focus,
-.card-item:hover {
+.card:focus,
+.card:hover {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 }
